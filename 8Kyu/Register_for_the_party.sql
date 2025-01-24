@@ -12,6 +12,6 @@ You can't attend if the attending column returns anything but true
 NOTE: Your solution should use pure SQL. Ruby is used within the test cases just to validate your answer.*/
 
 -- My solution
-INSERT INTO participants (name, age, attending)
+"INSERT INTO participants (name, age, attending)
 VALUES ('Your Name', 25, true);
-SELECT * FROM participants
+SELECT * FROM participants"
